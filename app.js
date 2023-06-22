@@ -29,12 +29,12 @@ const seattle = {
         this.calcCustomersPerHour();
         this.calcCookiesPerHour();
 
-        const article = document.createElement("article");
-        container.appendChild(article);
-
         const h3 = document.createElement("h3");
         h3.textContent = this.storeName;
         container.appendChild(h3);
+
+        const article = document.createElement("article");
+        container.appendChild(article);
 
         const ul = document.createElement("ul");
         article.appendChild(ul);
